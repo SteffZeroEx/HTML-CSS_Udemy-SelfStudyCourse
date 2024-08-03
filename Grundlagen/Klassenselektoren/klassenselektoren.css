@@ -1,0 +1,14 @@
+.gefahr {
+    color: red;
+}
+
+.wichtig {
+    font-weight: bolder;
+}
+
+p.gefahr {
+    text-decoration: underline;
+}
+span.wichtig {
+    background-color: dimgrey;
+}
