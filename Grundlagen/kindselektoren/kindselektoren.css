@@ -1,0 +1,14 @@
+p > span {
+    color: bisque;
+}
+p > b {
+    color: blueviolet;
+}
+span > b {
+    color: green;
+}
+
+html > body > p > span > i {
+    color: gray;
+    font-weight: bolder;
+}
