@@ -1,0 +1,6 @@
+span ~ i {
+    color: crimson;
+}
+i ~ b {
+    color: brown;
+}
