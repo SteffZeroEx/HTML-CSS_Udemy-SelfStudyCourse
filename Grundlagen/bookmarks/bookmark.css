@@ -1,0 +1,13 @@
+* {
+    scroll-behavior: smooth;
+}
+div {
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+#unserZiel {
+    border: 20px solid red;
+}
