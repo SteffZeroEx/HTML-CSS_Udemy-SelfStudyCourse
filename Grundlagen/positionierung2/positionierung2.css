@@ -1,0 +1,25 @@
+body {
+    height: 10000px;
+}
+
+#fixedDIV {
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#stickyDIV{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    position: sticky;
+    top: 50px;
+    margin-top: 350px;
+}
+
+span {
+    position: static; /* Standardwert für jedes Element*/
+}
