@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Das Form-Attribut</title>
+    <style>
+      fieldset {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="unserFormular" action="formAttribut.html" method="get">
+      <fieldset>
+        <legend>Persönliche Daten:</legend>
+        <label for="name">Benutzername:</label>
+        <input id="name" type="text" placeholder="Benutzername" /><br /><br />
+        <label for="email">E-Mail:</label>
+        <input id="email" type="email" placeholder="E-Mail Adresse" />
+      </fieldset>
+      <br /><br />
+      <button type="submit">Absenden!</button>
+    </form>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad excepturi ipsum similique quae assumenda mollitia,
+      corporis maxime quidem quo dignissimos nobis eos. Quo hic atque, magni ratione praesentium cupiditate maiores?
+    </p>
+
+    <label for="passwort">Passwort:</label>
+    <input id="passwort" type="password" name="passwort" form="unserFormular">
+  </body>
+</html>
