@@ -1,0 +1,22 @@
+table {
+    margin-bottom: 2rem;
+}
+
+table#test01, table#test01 td, table#test01 th  {
+    border: 1px solid black;
+    border-collapse: collapse; /* separate ist Standard*/
+    /* border-spacing: ; --> Nur bei separate möglich*/
+    padding-left: 2px; 
+    padding-right: 5px;
+}
+table#test02, table#test02 td, table#test02 th  {
+    border: 1px solid black;
+    border-collapse: separate; /* separate ist Standard*/
+    border-spacing: 10px;
+    padding-left: 5px; 
+    padding-right: 5px;
+}
+
+
+/* border, border-collapse, border-spacing */
+/* Randinfo: Die "caption" steht über der border */
