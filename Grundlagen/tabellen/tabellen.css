@@ -2,12 +2,12 @@ table {
     margin-bottom: 2rem;
 
 }
-table, table td{
-    border: 1px solid black;
-    border-collapse: collapse; /* separate ist Standard*/
+/* table, table td{
+    /* border: 1px solid black; 
+    border-collapse: collapse; ->>> separate ist Standard 
     padding-left: 2px; 
     padding-right: 5px;
-}
+} */
 table#test01, table#test01 td, table#test01 th  {
     border: 1px solid black;
     border-collapse: collapse; /* separate ist Standard*/
@@ -30,3 +30,24 @@ table#test02, table#test02 td, table#test02 th  {
 /* border, border-collapse, border-spacing */
 /* Randinfo: Die "caption" steht über der border */
 
+#test03 {
+    /* border-collapse: collapse; */
+    caption-side: bottom;
+    empty-cells: hide; /* Macht nur Sinn, wenn die border-collapse auf separate steht */
+    /* width: 50%; */
+    table-layout: fixed;
+}
+
+#test03, #test03 td, #test03 th  {
+    border: 1px solid black;
+}
+
+#test03 tr {
+    background-color: bisque;
+}
+
+#test03 td, #test03 th {
+    /* width: 130px; */
+}
+
+/* background-color, caption-side, empty-cells, width und table-layout */
