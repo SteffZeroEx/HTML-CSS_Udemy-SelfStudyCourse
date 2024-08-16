@@ -1,0 +1,21 @@
+#test {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border-radius: 10px;
+  /*
+    transition-property: all;
+    /* transition-property: width, height, background-color; 
+    transition-duration: 2s;
+    /* transition-delay: 2s; 
+    transition-timing-function: ease-in-out;
+    */
+  transition: width 2s ease-in-out 0.5s, height 4s ease-in-out 0.5s, background-color 3s, border-radius 3s;
+}
+
+#test:hover {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  border-radius: 50%;
+}
