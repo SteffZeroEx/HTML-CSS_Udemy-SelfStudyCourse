@@ -1,7 +1,13 @@
 table {
     margin-bottom: 2rem;
-}
 
+}
+table, table td{
+    border: 1px solid black;
+    border-collapse: collapse; /* separate ist Standard*/
+    padding-left: 2px; 
+    padding-right: 5px;
+}
 table#test01, table#test01 td, table#test01 th  {
     border: 1px solid black;
     border-collapse: collapse; /* separate ist Standard*/
@@ -9,6 +15,9 @@ table#test01, table#test01 td, table#test01 th  {
     padding-left: 2px; 
     padding-right: 5px;
 }
+
+
+
 table#test02, table#test02 td, table#test02 th  {
     border: 1px solid black;
     border-collapse: separate; /* separate ist Standard*/
@@ -20,3 +29,4 @@ table#test02, table#test02 td, table#test02 th  {
 
 /* border, border-collapse, border-spacing */
 /* Randinfo: Die "caption" steht über der border */
+
