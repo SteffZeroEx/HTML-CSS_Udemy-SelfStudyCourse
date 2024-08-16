@@ -47,7 +47,7 @@ table#test02, table#test02 td, table#test02 th  {
 }
 
 #test03 td, #test03 th {
-    /* width: 130px; */
+    width: 130px;
 }
 
 /* background-color, caption-side, empty-cells, width und table-layout */
