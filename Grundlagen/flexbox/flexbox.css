@@ -10,7 +10,7 @@ body {
 
 /* === GRID-SYSTEM (Sichtbarkeit) === */
 
-.border,
+/* .border,
 .border * {
   border: 1px solid #91c4ff;
 }
@@ -25,11 +25,11 @@ p {
   margin: 0;
   color: white;
   text-align: center;
-}
+} */
 
 /* === GRID-SYSTEM === */
 
-.container {
+/* .container {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +97,7 @@ p {
   .col-4 {
     width: 100%;
   }
-}
+} */
 
 /* === FLEX-BOX === */
 
@@ -107,8 +107,16 @@ p {
   margin-left: auto;
   margin-right: auto;
   background-color: #bfddff;
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
+  flex-flow: row-reverse wrap;
+
 }
 
 .flex-container > * {
   margin: 0.8rem;
+  color: white;
+  text-align: center;
+  background-color: #91c4ff;
+  width: 200px;
 }
