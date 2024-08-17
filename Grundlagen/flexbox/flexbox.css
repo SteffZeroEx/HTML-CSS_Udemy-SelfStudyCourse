@@ -116,9 +116,7 @@ p {
   /* flex-flow: row-reverse wrap; */
   /* justify-content: space-around; */
   /* align-items: baseline; */
-  /* flex-wrap: wrap; */
   /* align-content: space-around; ---> Funktioniert mit der flex-wrap eigenschaft */
-
 }
 
 .flex-container > * {
@@ -129,23 +127,47 @@ p {
   /* flex-basis: 300px; */
 }
 
-.flex-container > p:nth-of-type(1){
-  background-color: black;
+
+
+.flex-container > p:nth-of-type(1) {
   /* flex-grow: 4; */
   /* flex-shrink: 4; */
-  flex: 4 4 300px;
+  /* flex: 4 4 300px; */
+  /* order: 4; */
+  align-self: flex-end;
 }
-.flex-container > p:nth-of-type(2){
-  background-color: red;
-    /* flex-grow: 1; */
-    /* flex-shrink: 2; */
-  flex: 1 1 300px;
-
+.flex-container > p:nth-of-type(2) {
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+  /* flex: 1 1 300px; */
+  /* order: 1; */
+  align-self: center;
 }
-.flex-container > p:nth-of-type(3){
-  background-color: gold;
-    /* flex-grow: 1; */
-    /* flex-shrink: 1; */
-  flex: 1 1 300px;
-
+.flex-container > p:nth-of-type(3) {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* flex: 1 1 300px; */
+  /* order: 6; */
+  align-self: baseline;
+}
+.flex-container > p:nth-of-type(4) {
+  /* flex-grow: 4; */
+  /* flex-shrink: 4; */
+  /* flex: 4 4 300px; */
+  /* order: 2; */
+  align-self: stretch;
+}
+.flex-container > p:nth-of-type(5) {
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+  /* flex: 1 1 300px; */
+  /* order: 3; */
+  align-self: flex-start;
+}
+.flex-container > p:nth-of-type(6) {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* flex: 1 1 300px; */
+  /* order: 5; */
+  align-self: last baseline;
 }
